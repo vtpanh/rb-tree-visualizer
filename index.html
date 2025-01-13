@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Black Tree Visualization</title>
+  </head>
+  <body>
+    <div class="section-1">
+      <div class="header">
+        <h1 class="logo">Red Black Tree Visualization</h1>
+      </div>
+      <div class="form_control">
+        <form id="insert_form">
+          <input
+            type="text"
+            name="numberadd"
+            placeholder="Insert value"
+            class="search_input"
+          />
+          <input type="button" name="insert" value="Insert" class="btn" />
+        </form>
+        <form id="delete_form">
+          <input
+            type="text"
+            name="numberdel"
+            placeholder="Delete value"
+            class="search_input"
+          />
+          <input type="button" name="del" value="Delete" class="btn" />
+        </form>
+        <form id="search_form">
+          <input
+            type="text"
+            name="numbersearch"
+            placeholder="Search value"
+            class="search_input"
+          />
+          <input type="button" name="search" value="Search" class="btn" />
+      </div>
+    </div>
+    <div class="result"></div>
+    <hr />
+    <section class="field">
+      <div class="row root"></div>
+      <div class="row one"></div>
+      <div class="row two"></div>
+      <div class="row three"></div>
+      <div class="row four"></div>
+      <div class="row five"></div>
+      <div class="row six"></div>
+      <div class="row seven"></div>
+    </section>
+
+    <script src="./dist/result.js"></script>
+  </body>
+</html>
